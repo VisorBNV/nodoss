@@ -1,5 +1,5 @@
-FROM node:10-alpine
+FROM docker:stable
 
-RUN apk add --no-cache openssh git docker
+RUN apk add --no-cache npm openssh git
 
 CMD [ "node" ]
