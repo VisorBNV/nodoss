@@ -1,5 +1,5 @@
 FROM docker:stable
-
+#rebuild
 RUN apk add --no-cache npm openssh git curl py-pip
 
 RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s \
